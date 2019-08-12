@@ -47,8 +47,3 @@ class ImdbScraper:
                     movie_path = path + "\\" + (i + 1).__str__() + '. ' + movies[i]
                     os.makedirs(movie_path)
                     print('Created: ' + (i + 1).__str__() + '. ' + movies[i])
-
-
-# Imdb_Scraper.get_movies()
-# ImdbScraper.make_imdb_folder('C:\\Users\\NothingRealm\\Desktop\\IMDB')
-ImdbScraper.update_imdb_folder('C:\\Users\\NothingRealm\\Desktop\\IMDB')
